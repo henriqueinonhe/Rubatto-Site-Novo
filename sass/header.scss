@@ -76,13 +76,5 @@ header {
 		font-size: $baseFontSize*0.8;
 		display: inline-block;
 		margin-left: 55px;
-
-		a {
-			color: $textColor;
-
-			&:hover {
-				color: $textHoverColor;
-			}
-		}
 	}
 }

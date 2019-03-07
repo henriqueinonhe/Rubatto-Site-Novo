@@ -97,6 +97,13 @@ function initialize() {
 	$("#sectionCurrentFrame").html($("#homeTemplate").html());
 	setCarouselJS();
 	setMenuJS();
+
+	//Footer
+	$("#footerEmail").click(function() {
+		//document.getElementById("footerEmail").select();
+		document.execCommand("copy");
+		//FIXME!
+	});
 }
 
 function appendSectionTemplate(templateId) {
