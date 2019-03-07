@@ -1,0 +1,95 @@
+@import "globals";
+
+$depoimentosFotoFrameSize: 130px;
+$depoimentosFotoSize: 115px;
+
+.depoimentosRow {
+	padding-top: 50px;
+	z-index: 2;
+}
+
+.depoimentosColumn {
+	width: 33%;
+	display: inline-block;
+	float: left;
+	opacity: 0;
+
+	&:first-child .depoimentosArea {
+		margin-left: auto;
+		margin-right: 0;
+	}
+
+	&:nth-last-child(2) .depoimentosArea {
+		margin-right: auto;
+		margin-left: 0;
+	}
+}
+
+.depoimentosArea {
+	min-height: 400px;
+	margin: auto; 
+	background-color: $textAreaColor;
+	width: 65%;
+	box-shadow: $boxShadow;
+	padding-top: 20px;
+}
+
+.depoimentosFotoFrame {
+	background-color: #FF9EA9;
+	border-radius: 100%;
+	width: $depoimentosFotoFrameSize;
+	height: $depoimentosFotoFrameSize;
+	margin: auto;
+}
+
+.depoimentosFoto {
+	margin: auto;
+	border-radius: 100%;
+	width: $depoimentosFotoSize;
+	height: $depoimentosFotoSize;
+	background-color: red;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-position: center;
+	background-size: cover;
+}
+
+#depoimento1 .depoimentosFoto{
+	background-image: url("../img/depoimentos/anitta.jpg")
+}
+
+#depoimento2 .depoimentosFoto{
+	background-image: url("../img/depoimentos/brunoMars.jpg")
+}
+
+#depoimento3 .depoimentosFoto{
+	background-image: url("../img/depoimentos/itzak.jpg")
+}
+
+#depoimento4 .depoimentosFoto{
+	background-image: url("../img/depoimentos/johnPetrucci.jpg")
+}
+
+#depoimento5 .depoimentosFoto{
+	background-image: url("../img/depoimentos/livinho.jpg")
+}
+
+#depoimento6 .depoimentosFoto{
+	background-image: url("../img/depoimentos/vivaldi.jpg")
+}
+
+.depoimentosText {
+	font-style: italic;
+	font-family: Roboto;
+	color: #333;
+	padding: 20px;
+	text-align: justify;
+
+	em {
+		font-family: Roboto;
+		font-weight: bold;
+	}
+}

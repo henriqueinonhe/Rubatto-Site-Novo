@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<title>Rubatto - Cerimônias e Eventos</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Músicos para casamentos, festas, eventos, cerimônias em São Paulo, Campinas e região.">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" type="text/css" href="css/sobre.css">
+	<link rel="stylesheet" type="text/css" href="css/servicos.css">
+	<link rel="stylesheet" type="text/css" href="css/fotos.css">
+	<link rel="stylesheet" type="text/css" href="css/videos.css">
+	<link rel="stylesheet" type="text/css" href="css/repertorio.css">
+	<link rel="stylesheet" type="text/css" href="css/depoimentos.css">
+
+	<!-- Scrips -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/transit.js"></script>
+  	<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SXW9vi2uZAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div id="overfillContainer">
+<div class="overfill"></div>
+
+<header>
+	<h1>Rubatto - Casamentos, Cerimônias, Festas e Eventos. <img src="img/logo1.svg" alt="Logo Rubatto Cerimônias"></h1>
+	<nav>
+		<div id="menu">
+			<span id="menuIcon"></span>
+			<span>Menu</span>
+			<ul id="menuDropdown">
+				<li id="homeLink">Home</li>
+				<li id="sobreLink">Sobre</li>
+				<li id="servicosLink">Serviços</li>
+				<li id="fotosLink">Fotos</li>
+				<li id="videosLink">Vídeos</li>
+				<li id="repertorioLink">Repertório</li>
+				<li id="depoimentosLink">Depoimentos</li>
+			</ul>
+		</div>
+
+		<ul id="socialMediaMenu">
+			<li><a target="_blank" href="https://www.facebook.com/Rubatto-Produ%C3%A7%C3%B5es-2170407343223611/">Facebook</a></li><li><a target="_blank" href="https://www.instagram.com/rubattoproducoes/?hl=en">Instagram</a></li><li><a target="_blank" href="https://www.youtube.com/channel/UCeiL2u61DC4Kf-sxquSps9g?view_as=subscriber">Youtube</a></li>
+		</ul>
+	</nav>
+</header>
+
+<!-- Main - To Be Filled With JS -->
+
+<main>
+	<div class="block" id="block1"></div>
+	<div class="block" id="block2"></div>
+	<div class="block" id="block3"></div>
+	<div class="block" id="block4"></div>
+	<div class="block" id="block5"></div>
+	<div class="sectionFrame" id="sectionPreviousFrame"></div>
+	<div class="sectionFrame" id="sectionCurrentFrame"></div>
+	<div class="sectionFrame" id="sectionNextFrame"></div>
+</main>
+
+</div>
+
+<footer>	
+	<div class="column">
+		<div><span class="footerIcon" id="instagramIcon"></span><span>@rubattoprovisorio</span></div>
+		<div><span class="footerIcon" id="facebookIcon"></span><span>/rubattoprovisorio</span></div>
+		<div><span class="footerIcon" id="youtubeIcon"></span><span>RubattoProvisorio</span></div>
+	</div>
+	<div class="column">
+		<div>
+			<span class="footerIcon" id="wppIcon"></span><span>Jundiaí (11) 99923-9279<br>
+				Campinas (19) 99611-8798<br>
+				São Paulo (11) 9 9403-6947</span>
+			
+		</div>
+		<div><span class="footerIcon" id="emailIcon"></span><span>rubattoprovisorio@email.com</span></div>
+	</div>
+	<div class="column">
+		<div><span class="footerIcon" id="locationIcon"></span><span>Avenida Henrique Andrés, Nº90</span><span>Centro - Jundiaí - SP</span></div>
+	</div>
+	<div class="column">
+		<div><span class="footerIcon" id="heartIcon"></span><span>Parceiros</span></div>
+	</div>
+	<div class="clearFloat"></div>
+</footer>
+
+</body>
+</html>
+
+
+<!-- Templates -->
+
+<template id="baseTemplate">
+
+</template>
+
+<template id="homeTemplate">
+	<div id="bride1"></div>
+	<div id="carouselContainer">
+		<div id="carousel">
+			<div id="carouselPreviousFrame" class="carouselFrame"></div>
+			<div id="carouselCurrentFrame" class="carouselFrame"></div>
+			<div id="carouselNextFrame" class="carouselFrame"></div>
+		</div>
+		<div id="carouselButtonContainer">
+			<div id="carouselRightButton"></div>
+			<div id="carouselLeftButton"></div>
+		</div>
+	</div>
+</template>
+
+<template id="sobreTemplate">
+	<h2>Sobre</h2>
+	<div id="sobreTextContainer">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et tincidunt diam. Donec fermentum sed magna ut dictum. Nulla volutpat, purus luctus posuere sagittis, ipsum eros vehicula metus, vitae ornare augue massa ac magna. Nulla facilisi. Fusce quis feugiat mi. Aenean iaculis ligula at consequat tempor. Sed ullamcorper sollicitudin arcu. Vestibulum commodo tristique leo, eget venenatis justo. Proin commodo luctus tellus, et varius velit egestas non. Aliquam erat volutpat. Nunc aliquam dolor ac neque placerat, sit amet aliquet ligula fringilla. Proin sagittis fermentum lacus ac tempor. In lorem ipsum, pulvinar vitae facilisis at, euismod in magna. Nam eget mi purus.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et tincidunt diam. Donec fermentum sed magna ut dictum. Nulla volutpat, purus luctus posuere sagittis, ipsum eros vehicula metus, vitae ornare augue massa ac magna. Nulla facilisi. Fusce quis feugiat mi. Aenean iaculis ligula at consequat tempor. Sed ullamcorper sollicitudin arcu. Vestibulum commodo tristique leo, eget venenatis justo. Proin commodo luctus tellus, et varius velit egestas non. Aliquam erat volutpat. Nunc aliquam dolor ac neque placerat, sit amet aliquet ligula fringilla. Proin sagittis fermentum lacus ac tempor. In lorem ipsum, pulvinar vitae facilisis at, euismod in magna. Nam eget mi purus.</p>
+
+	</div>
+	<div id="bride2"></div>
+</template>
+
+<template id="servicosTemplate">
+	<h2>Serviços</h2>
+	<div id="bride3"></div>
+	<div id="servicosDescriptionContainer">
+		<div id="servicosThumbnail">
+			<div id="servicosThumbnailPreviousFrame" class="servicosThumbnailFrame"></div>
+			<div id="servicosThumbnailCurrentFrame" class="servicosThumbnailFrame"></div>
+			<div id="servicosThumbnailNextFrame" class="servicosThumbnailFrame"></div>
+		</div>
+		<div id="servicosButtonContainer">
+			<div id="servicosRightButton"></div>
+			<div id="servicosLeftButton"></div>
+		</div>
+		<div id="servicosTextContainer">
+			<div id="servicosText">Lorem Ipsum1</div>
+		</div>
+	</div>
+</template>
+
+<template id="fotosTemplate">
+	<h2>Fotos</h2>
+	<div id="bride4"></div>
+	<div id="fotoModal">
+		<div id="fotoModalContent"></div>
+	</div>
+	<div id="fotosContainer">
+		<div class="fotosRow">
+			<div class="fotosColumn"><div class="foto" id="foto1"><div class="fotoOverfill"></div></div></div>
+			<div class="fotosColumn"><div class="foto" id="foto2"><div class="fotoOverfill"></div></div></div>
+			<div class="fotosColumn"><div class="blankFoto"></div></div>
+		</div>
+		<div class="fotosRow">
+			<div class="fotosColumn"><div class="foto" id="foto3"><div class="fotoOverfill"></div></div></div>
+			<div class="fotosColumn"><div class="foto" id="foto4"><div class="fotoOverfill"></div></div></div>
+			<div class="fotosColumn"><div class="blankFoto"></div></div>
+		</div>
+		<div class="fotosRow">
+			<div class="fotosColumn"><div class="foto" id="foto5"><div class="fotoOverfill"></div></div></div>
+			<div class="fotosColumn"><div class="foto" id="foto6"><div class="fotoOverfill"></div></div></div>
+			<div class="fotosColumn"><div class="foto" id="foto7"><div class="fotoOverfill"></div></div></div>
+		</div>
+	</div>
+</template>
+
+<template id="videosTemplate">
+	<h2>Vídeos</h2>
+	<div id="bride5"></div>
+	
+</template>
+
+<template id="repertorioTemplate">
+	<h2>Repertório</h2>
+	<div id="momentosContainer">
+		<div class="momentosRow" id="momentosRow1">
+			<div class="momentosThumbnail" id="momentosThumbnail1"><div class="momentosOverfill">Momento 1</div></div><div class="momentosThumbnail" id="momentosThumbnail2"><div class="momentosOverfill">Momento 2</div></div><div class="momentosThumbnail" id="momentosThumbnail3"><div class="momentosOverfill">Momento 3</div></div><div class="momentosThumbnail" id="momentosThumbnail4"><div class="momentosOverfill">Momento 4</div></div><div class="momentosThumbnail" id="momentosThumbnail5"><div class="momentosOverfill">Momento 5</div></div>
+		</div>
+		<div class="momentosRow" id="momentosRow2">
+			<div class="momentosThumbnail" id="momentosThumbnail6"><div class="momentosOverfill">Momento 6</div></div><div class="momentosThumbnail" id="momentosThumbnail7"><div class="momentosOverfill">Momento 7</div></div><div class="momentosThumbnail" id="momentosThumbnail8"><div class="momentosOverfill">Momento 8</div></div><div class="momentosThumbnail" id="momentosThumbnail9"><div class="momentosOverfill">Momento 9</div></div><div class="momentosThumbnail" id="momentosThumbnail10"><div class="momentosOverfill">Momento 10</div></div>
+		</div>
+	</div>
+	<div id="momentosDescription">
+		<h3></h3>
+		<p></p>
+	</div>
+</template>
+
+<template id="depoimentosTemplate">
+	<h2>Depoimentos</h2>
+	<div class="depoimentosRow">
+		<div class="depoimentosColumn">
+			<div class="depoimentosArea" id="depoimento1">
+				<div class="depoimentosFotoFrame">
+					<div class="depoimentosFoto"></div>
+				</div>
+				<div class="depoimentosText">"A equipe do Rubatto é muito top, um estouro, BANG! Escolher o Rubatto foi um tiro certo!" - <em>Anitta</em></div>
+			</div>
+		</div>
+		<div class="depoimentosColumn">
+			<div class="depoimentosArea" id="depoimento2">
+				<div class="depoimentosFotoFrame">
+					<div class="depoimentosFoto"></div>
+				</div>
+				<div class="depoimentosText">"Eu estava em casa com minha namorada pensando: "Ah, é uma noite bonita, e estamos procurando algo besta pra fazer... Ei bebê, acho que eu quero casar com você!". Então logo procuramos a equipe Rubatto para realizar nosso sonho!" - <em>Bruno</em></div>
+			</div>
+		</div>
+		<div class="depoimentosColumn">
+			<div class="depoimentosArea" id="depoimento3">
+				<div class="depoimentosFotoFrame">
+					<div class="depoimentosFoto"></div>
+				</div>
+				<div class="depoimentosText">"Esses meninos são muito talentosos! Eles foram muito legais comigo, até deixaram eu dar uma palinha com meu violino!" - <em>Itzhak</em></div>
+			</div>
+		</div>
+		<div class="clearFloat"></div>
+	</div>
+	<div class="depoimentosRow">
+		<div class="depoimentosColumn">
+			<div class="depoimentosArea" id="depoimento4">
+				<div class="depoimentosFotoFrame">
+					<div class="depoimentosFoto"></div>
+				</div>
+				<div class="depoimentosText">"O som estava bom demais! Tudo estava perfeito!" - <em>John</em></div>
+			</div>
+		</div>
+		<div class="depoimentosColumn">
+			<div class="depoimentosArea" id="depoimento5">
+				<div class="depoimentosFotoFrame">
+					<div class="depoimentosFoto"></div>
+				</div>
+				<div class="depoimentosText">"Espetacular! Vai fazer falta escutar o Rubatto, não há o que criticar, estão de parabéns!" - <em>Livinho</em></div>
+			</div>
+		</div>
+		<div class="depoimentosColumn">
+			<div class="depoimentosArea" id="depoimento6">
+				<div class="depoimentosFotoFrame">
+					<div class="depoimentosFoto"></div>
+				</div>
+				<div class="depoimentosText">"Toda a cerimônia foi perfeita, me senti como se estivesse passando pelas quatro estações!" - <em>Antonio</em></div>
+			</div>
+		</div>
+		<div class="clearFloat"></div>
+	</div>
+</template>
+
+
+
+<!-- /Templates -->
+
+
+
+
+
+
+

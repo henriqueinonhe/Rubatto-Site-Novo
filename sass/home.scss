@@ -1,0 +1,79 @@
+@import "globals";
+
+#home {
+	display: block;
+}
+
+#bride1 {
+	width: 630px;
+	height: 830px;
+	background-image: url("../img/bride1.svg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 30px;
+	left: 70px;
+}
+
+#carouselContainer {
+	display: inline-block;
+	width: 60vw;
+	height: 30vw;
+	position: absolute;
+	top: 50px;
+	right: 40px;
+	z-index: 2;
+}
+
+#carousel {
+	display: inline-block;
+	width: 60vw;
+	height: 30vw;
+	overflow: hidden; 
+	box-shadow: $boxShadow;
+}
+
+.carouselFrame {
+	display: inline-block;
+	width: 60vw;
+	height: 30vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+}
+
+#carouselPreviousFrame {
+	transform: translate(-60vw, 0);
+}
+
+#carouselCurrentFrame {
+	background-image: url("../img/carousel/img1.jpg");
+}
+
+#carouselNextFrame {
+	background-image: url("../img/carousel/img2.jpg");
+	transform: translate(60vw, 0);
+}
+
+#carouselButtonContainer {
+	height: 50px;
+}
+
+#carouselLeftButton {
+	background-image: url("../img/carouselLeftButton.svg");
+}
+
+#carouselRightButton {
+	background-image: url("../img/carouselRightButton.svg");
+}
+
+#carouselLeftButton, #carouselRightButton {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	float: right;
+	cursor: pointer;
+}

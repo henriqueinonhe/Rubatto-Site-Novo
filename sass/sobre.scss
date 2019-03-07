@@ -1,0 +1,27 @@
+@import "globals";
+
+
+#sobreTextContainer {
+	width: 50vw;
+	background-color: $textAreaColor;
+	margin-left: 10%;
+	padding: 30px 70px;
+	font-size: $baseFontSize * 0.8;
+	z-index: 2;
+
+	p {
+		text-indent: 20px;
+		text-align: justify;
+	}
+}
+
+#bride2 {
+	width: 630px;
+	height: 1200px;
+	background-image: url("../img/bride2.svg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -50px;
+	right: 20px;
+}

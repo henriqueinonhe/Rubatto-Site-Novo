@@ -1,0 +1,78 @@
+@import "globals";
+
+$block1Size: 330px;
+$block2Size: 170px;
+$block3Size: 250px;
+$block4Size: 250px;
+$block5Size: 250px;
+
+main {
+	min-height: 1000px;
+}
+
+.sectionFrame {
+	min-height: 1000px;
+	position: absolute;
+	width: 100vw;
+	top: 0;
+}
+
+#sectionPreviousFrame {
+	transform: translateX(-100vw);
+	//left: -100vw;
+}
+
+#sectionCurrentFrame {
+	position: relative;
+	
+
+}
+
+#sectionNextFrame {
+	transform: translateX(100vw);
+	//left: 100vw;
+}
+
+//Blocks
+.block {
+	position: absolute;
+}
+
+#block1 {
+	width: $block1Size;
+	height: $block1Size;
+	background-color: #FD9CAF;
+	transform: translateX(220px);
+}
+
+#block2 {
+	width: $block2Size;
+	height: $block2Size;
+	background-color: #F5E0CD;
+	transform: translate(930px, -40px);
+}
+
+#block3 {
+	width: $block3Size;
+	height: $block3Size;
+	background-color: #A3BAB4;
+	transform: translate(1200px, 200px);
+}
+
+
+#block4 {
+	width: $block4Size;
+	height: $block4Size;
+	background-color: #ADDED8;
+	transform: translate(30px, 380px);
+}
+
+#block5 {
+	width: $block5Size;
+	height: $block5Size;
+	background-color: #DEEDEA;
+	transform: translate(700px, 650px);
+}
+
+
+

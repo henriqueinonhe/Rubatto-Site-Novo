@@ -1,0 +1,88 @@
+@import "globals";
+$menuSize: 35px;
+
+header {
+	font-size: $baseFontSize;
+	margin: 30px 120px 0 120px;
+
+	h1 {
+		font-size: 0;
+		text-align: center;
+		margin-bottom: 50px;
+		z-index: 3;
+
+		img {
+			width: 280px;
+			margin: auto;
+			transition: 1s;
+
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+}
+
+#menu {
+	z-index: 3;
+	display: inline-block;
+	padding-right: 115px;
+	padding-top: 10px;
+	padding-left: 10px;
+
+	&:hover {
+		background-color: rgba(255, 255, 255, 0.85);
+	}
+
+	&:hover #menuDropdown {
+		display: block;
+	}
+}
+
+#menuIcon {
+	background-image: url("../img/menuIcon.svg");
+	background-position: center;
+	background-size: 100%;
+	width: $menuSize;
+	height: $menuSize;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+#menuDropdown {
+	display: none;
+	z-index: 3;
+	position: absolute;
+	padding: 50px;
+	background-color: rgba(255, 255, 255, 0.9);
+	left: 0;
+
+	li {
+		cursor: pointer;
+		padding-bottom: 5px;
+
+		&:hover {
+			color: $textHoverColor;
+		}
+	}
+}
+
+#socialMediaMenu {
+	margin-top: 50px;
+	margin-left: 50px;
+
+	li {
+		z-index: 2;
+		font-size: $baseFontSize*0.8;
+		display: inline-block;
+		margin-left: 55px;
+
+		a {
+			color: $textColor;
+
+			&:hover {
+				color: $textHoverColor;
+			}
+		}
+	}
+}
