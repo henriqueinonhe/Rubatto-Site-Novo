@@ -47,11 +47,11 @@ var block4RepertorioPosition = {x: "477px", y: "583px"};
 var block5RepertorioPosition = {x: "211px", y: "86px"};
 var blockRepertorioArray = [block1RepertorioPosition, block2RepertorioPosition, block3RepertorioPosition, block4RepertorioPosition, block5RepertorioPosition]
 
-var block1DepoimentosPosition = {x: "874px", y: "-42px"};
-var block2DepoimentosPosition = {x: "80px", y: "473px"};
-var block3DepoimentosPosition = {x: "779px", y: "130px"};
-var block4DepoimentosPosition = {x: "477px", y: "583px"};
-var block5DepoimentosPosition = {x: "211px", y: "86px"};
+var block1DepoimentosPosition = {x: "900px", y: "450px"};
+var block2DepoimentosPosition = {x: "473px", y: "80px"};
+var block3DepoimentosPosition = {x: "130px", y: "388px"};
+var block4DepoimentosPosition = {x: "528px", y: "477px"};
+var block5DepoimentosPosition = {x: "86px", y: "211px"};
 var blockDepoimentosArray = [block1DepoimentosPosition, block2DepoimentosPosition, block3DepoimentosPosition, block4DepoimentosPosition, block5DepoimentosPosition]
 
 var homeSectionRecord = {index: 0, id: "#homeTemplate", blockArray: blockHomeArray};

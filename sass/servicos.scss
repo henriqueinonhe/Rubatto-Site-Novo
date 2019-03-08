@@ -76,4 +76,13 @@
 #servicosTextContainer {
 	background-color: $textAreaColor;
 	height: 200px;
+	overflow-y: scroll;
+	padding: 20px 50px;
+}
+
+#servicosText {
+	font-family: Roboto;
+	color: $altTextColor;
+	font-style: italic;
+	font-weight: 300;
 }
