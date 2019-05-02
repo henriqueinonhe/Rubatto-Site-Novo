@@ -69,22 +69,28 @@ var sectionFrameTransitionDelay = 1600;
 var servicosCurrentFrameId = 1;
 var servicosMaxFrameId = 3;
 var servicosDelay = 1000;
-var servicosText1 = "Lorem Ipsum1";
-var servicosText2 = "Lorem Ipsum2";
+var servicosText1 = "<p>A cerimônia de casamento é um ocasião muito especial para os noivos e para os convidados e desta forma cada momento da cerimônia merece uma trilha sonora adequada que ajude a tornar este momento ainda mais marcante!</p>" +
+				"<p>Assim como num filme, onde a trilha é fundamental para dar o caráter de cada cena, a trilha da cerimônia ajuda a moldar cada um dos momentos da cerimônia.</p>" +
+				"<p>Nós oferecemos diversas formações à escolha, de acordo com a necessidade do cliente.</p>" +
+				"<p>A trilha da cerimônia vai do começo ao fim do evento, desde a chegada dos convidados até a saída dos noivos.</p>";
+var servicosText2 = "<p>Seja durante um almoço ou um jantar de comemoração nada melhor do que som ao vivo para acompanhar!</p>" + 
+					"<p>Temos arranjos e formações especiais para Lounge, proporcionando um ambiente agradável, permitindo ao mesmo tempo que os convidados desfrutem da música e possam conversar tranquilamente.</p>" +
+					"<p>Para o Lounge temos diversas opções de repertório pré-selecionadas (Pop, Forró, Sertanejo, Rock, MPB, Jazz, entre outros), porém aceitamos pedidos especiais para o repertório.</p>" +
+					"<p>A duração do Lounge fica à escolha do cliente, podendo ser somente a duração da refeição, começando já na recepção ou até mesmo se extendno para além da mesma, numa espécie de jantar dançante.</p>";
 var servicosText3 = "Lorem Ipsum3";
 var servicosTextArray = [servicosText1, servicosText2, servicosText3];
 
 /* Repertório */
-var momentosTexts = {momentosThumbnail1: {h3: "Momento 1", p: "Momento 1"},
-			         momentosThumbnail2: {h3: "Momento 2", p: "Momento 2"},
-			         momentosThumbnail3: {h3: "Momento 3", p: "Momento 3"},
-		 	     	 momentosThumbnail4: {h3: "Momento 4", p: "Momento 4"},
-		 	 		 momentosThumbnail5: {h3: "Momento 5", p: "Momento 5"},
-		 	 		 momentosThumbnail6: {h3: "Momento 6", p: "Momento 6"},
-		 	 		 momentosThumbnail7: {h3: "Momento 7", p: "Momento 7"},
-		 	 		 momentosThumbnail8: {h3: "Momento 8", p: "Momento 8"},
-		 	 		 momentosThumbnail9: {h3: "Momento 9", p: "Momento 9"},
-		 	 		 momentosThumbnail10: {h3: "Momento 10", p: "Momento 10"}}
+var momentosTexts = {momentosThumbnail1: {h3: "Entrada dos Padrinhos", p: "Entrada dos Padrinhos"},
+			         momentosThumbnail2: {h3: "Entrada do Noivo", p: "Entrada do Noivo"},
+			         momentosThumbnail3: {h3: "Entrada das Floristas/Pajens", p: "Momento 3"},
+		 	     	 momentosThumbnail4: {h3: "Clarins e Clarinada", p: "Momento 4"},
+		 	 		 momentosThumbnail5: {h3: "Entrada da Noiva", p: "Momento 5"},
+		 	 		 momentosThumbnail6: {h3: "Entrada das Alianças", p: "Momento 6"},
+		 	 		 momentosThumbnail7: {h3: "Benção das Alianças", p: "Momento 7"},
+		 	 		 momentosThumbnail8: {h3: "Assinaturas", p: "Momento 8"},
+		 	 		 momentosThumbnail9: {h3: "Cumprimentos", p: "Momento 9"},
+		 	 		 momentosThumbnail10: {h3: "Saída", p: "Momento 10"}}
 
 $(document).ready(main);
 
@@ -352,7 +358,7 @@ function normalizeServicosFrameId(frameId) {
 }
 
 function servicosFrameUrl(frameId) {
-	return "url('img/servicos/img" + normalizeServicosFrameId(frameId) + ".png')";
+	return "url('img/servicos/img" + normalizeServicosFrameId(frameId) + ".jpg')";
 }
 
 function servicosTextHtml(frameId) {

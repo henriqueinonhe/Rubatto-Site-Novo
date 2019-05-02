@@ -2,13 +2,14 @@
 
 
 #sobreTextContainer {
-	width: 50vw;
+	width: 60vw;
 	background-color: $textAreaColor;
-	margin-left: 10%;
+	margin-left: 7%;
 	padding: 30px 70px;
 	font-size: $baseFontSize * 0.5;
 	z-index: 2;
-	margin-bottom: 50px;
+	top: 50px;
+	min-height: 600px;
 
 	p {
 		text-indent: 20px;

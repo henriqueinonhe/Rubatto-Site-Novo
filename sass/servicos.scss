@@ -44,7 +44,7 @@
 }
 
 #servicosThumbnailCurrentFrame {
-	background-image: url("../img/servicos/img1.png")
+	background-image: url("../img/servicos/img1.jpg")
 }
 
 #servicosThumbnailNextFrame {
@@ -75,14 +75,17 @@
 
 #servicosTextContainer {
 	background-color: $textAreaColor;
-	height: 200px;
+	height: 250px;
 	overflow-y: scroll;
 	padding: 20px 50px;
 }
 
-#servicosText {
+#servicosText p {
 	font-family: Roboto;
 	color: $altTextColor;
 	font-style: italic;
 	font-weight: 300;
+	text-indent: 30px;
+	margin-bottom: 5px;
+	text-align: justify;
 }

@@ -3,6 +3,7 @@
 #momentosContainer {
 	z-index: 2;
 	padding-top: 50px;
+	word-spacing: 5px;
 }
 
 
@@ -61,6 +62,8 @@
 	height: 500px;
 	font-size: $baseFontSize;
 	padding: 50px 80px;
+	font-family: Roboto;
+	font-style: italic;
 
 	h3 {
 		text-align: center;
